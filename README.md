@@ -1,93 +1,180 @@
-# Frontend Mentor - Blog preview card
+# Frontend Mentor - Blog preview card solution
 
-![Design preview for the Blog preview card coding challenge](./preview.jpg)
+This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Overview
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+### The challenge
 
-## The challenge
+The blog preview card is a responsive, interactive component that displays article information with a clean and modern design. Users can interact with the card and see visual feedback on hover and focus states.
 
-Your challenge is to build out this blog preview card and get it looking as close to the design as possible.
+Users should be able to:
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to:
-
+- View a blog preview card with article details including an image, category tag, publication date, title, description, and author information
 - See hover and focus states for all interactive elements on the page
+- Experience a responsive design that adapts to different screen sizes
+- Access the article content through a clearly presented preview
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+### Screenshots
 
-## Where to find everything
+#### Desktop View
+![Blog Preview Card - Desktop View](./assets/screenshots/DesktopView.png)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+#### Mobile View
+![Blog Preview Card - Mobile View](./assets/screenshots/MobileView.png)
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+### Links
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+- Solution URL: [GitHub Repository](https://github.com)
+- Live Site URL: [https://blogpost-f-e-m-l.vercel.app/](https://blogpost-f-e-m-l.vercel.app/)
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+## My process
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+### Development Approach
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+My development process followed a structured and methodical approach to ensure a high-quality final product:
 
-## Building your project
+**1. Planning & Requirements Analysis**
+- Analyzed the Frontend Mentor challenge requirements and design specifications
+- Identified key interactive elements and responsive breakpoints
+- Planned the HTML structure for semantic markup and accessibility
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+**2. HTML Structure Development**
+- Created semantic HTML5 with proper semantic elements (main, img with alt text)
+- Built a logical hierarchy with heading levels (h1, h2, p)
+- Added descriptive alt text for all images for accessibility
+- Structured the author section and article details in logical containers
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+**3. CSS Styling & Layout**
+- Implemented CSS custom properties for color management and maintainability
+- Used Flexbox for the author details section alignment
+- Applied CSS Grid concepts for overall card structure organization
+- Created responsive padding and sizing relative to viewport
+- Developed the distinctive 8px box-shadow for visual depth and elevation
+- Applied consistent border-radius for modern, polished appearance
 
-## Deploying your project
+**4. Typography Implementation**
+- Integrated custom Figtree variable fonts via @font-face
+- Set proper font weights for visual hierarchy (800 for headings, regular for body)
+- Configured font-display: swap for optimal performance and user experience
+- Ensured readable font sizing across different content types
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+**5. Color & Visual Hierarchy**
+- Used HSL color space for precise color control
+- Applied strategic color contrasts to guide user attention
+- Created visual emphasis through font weight and color combinations
+- Maintained accessibility with proper contrast ratios
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+**6. Testing & Refinement**
+- Tested the design on multiple screen sizes
+- Verified hover and focus states for interactive elements
+- Validated semantic HTML and accessibility features
+- Fine-tuned spacing and proportions for visual balance
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+**7. Deployment**
+- Deployed the final solution to Vercel for live hosting
+- Ensured all assets load correctly from the assets directory
+- Verified the live site functionality and performance
 
-## Create a custom `README.md`
+### Built with
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+- **Semantic HTML5 markup** - Properly structured HTML with meaningful elements for better accessibility and SEO
+- **CSS custom properties (variables)** - Used for consistent color management and easy theme adjustments
+- **Flexbox** - For flexible layout of the author section and card alignment
+- **CSS Grid** - For organizing the overall card structure and spacing
+- **Mobile-first workflow** - Responsive design approach starting from mobile and scaling up
+- **Custom Google Fonts (Figtree)** - Professional typography with variable font weights (500-800)
+- **CSS Box Shadows** - For the distinctive elevated shadow effect on the card
+- **CSS Border Radius** - For smooth, modern rounded corners on images and elements
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+### What I learned
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+Through building this blog preview card, I gained valuable experience in several areas:
 
-## Submitting your solution
+**1. Custom Font Integration**
+- Learned how to implement local @font-face declarations with variable fonts
+- Understood font weight variations and how to use them effectively across the design
+- Implemented font-display: swap for better performance and user experience
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+```css
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+    font-weight: 500 800;
+    font-display: swap;
+}
+```
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+**2. Responsive Card Design**
+- Created a fixed-width card that centers on the viewport with proper padding
+- Used flexbox to align the author details in a horizontal layout
+- Implemented proper spacing and proportions for visual hierarchy
 
-## Sharing your solution
+**3. Visual Effects**
+- Mastered CSS box-shadow for creating the distinctive 8px offset shadow effect
+- Applied border-radius consistently across different elements for design cohesion
+- Used color variables (hsl) for precise color management and consistency
 
-There are multiple places you can share your solution:
+```css
+.container {
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 8px 8px 0 0 hsl(0, 0%, 7%);
+}
+```
 
-1. Share your solution page in the **#finished-projects** channel of our [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+**4. Semantic HTML Best Practices**
+- Used appropriate semantic elements (main, img with alt text, heading hierarchy)
+- Implemented accessible image descriptions for better screen reader support
+- Structured content logically for both human and machine readability
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+**5. Color Management**
+- Used HSL color space for intuitive color adjustments (hue, saturation, lightness)
+- Created visual hierarchy through color contrast and weight variations
+- Understood how color relates to UI emphasis and user interaction
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+### Continued development
 
-## Got feedback for us?
+In future projects, I plan to focus on:
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+- **Interactive Enhancements**: Adding hover and active states with smooth transitions and transforms
+- **Advanced Responsiveness**: Implementing breakpoints for tablets and larger screens with CSS media queries
+- **Animation Effects**: Creating subtle animations for card entrance and interactive elements using CSS animations and transitions
+- **Accessibility Improvements**: Adding focus states, ARIA labels, and keyboard navigation support
+- **State Management**: Implementing JavaScript for dynamic content loading and interactive features
+- **Performance Optimization**: Optimizing image sizes, implementing lazy loading, and minimizing CSS
+- **Dark Mode Support**: Adding CSS custom properties for theme switching capability
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+### Useful resources
 
-**Have fun building!** 🚀
+- [CSS Tricks - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Excellent reference for flexbox properties and alignment
+- [MDN - CSS Custom Properties (Variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) - Deep dive into CSS variables and their usage
+- [Google Fonts Variable Fonts](https://fonts.google.com/?vfonly=true) - Understanding variable fonts and their implementation
+- [Color Hunt](https://colorhunt.co/) - Inspiration for color palettes and combinations
+- [Responsive Design Patterns](https://www.patterns.dev/) - Learning modern responsive design approaches
+- [The Markdown Guide](https://www.markdownguide.org/) - Reference for markdown syntax and best practices
+
+## Author
+
+
+- **LinkedIn** - [Your LinkedIn Profile](https://linkedin.com/in/kayode96max)
+- **GitHub** - [Your GitHub Profile](https://github.com/kayode96-max)
+- **Portfolio Website** - [Your Portfolio](https://www.abdullahiusman.tech)
+
+Feel free to reach out if you have any feedback or want to collaborate on projects!
+
+- Twitter - [@yourusername](https://www.twitter.com/kayode96max)
+
