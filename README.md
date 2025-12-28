@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com)
+- Solution URL: [GitHub Repository](https://github.com/kayode96-max/BlogPost)
 - Live Site URL: [https://blogpost-f-e-m-l.vercel.app/](https://blogpost-f-e-m-l.vercel.app/)
 
 ## My process
